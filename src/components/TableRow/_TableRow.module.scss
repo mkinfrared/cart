@@ -1,0 +1,56 @@
+@import "../../sass/mixins";
+
+.tableRow {
+  background-color: #FFFFFF;
+  display: flex;
+
+  > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+    > p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    &:first-child {
+      flex: 4;
+    }
+
+    &:nth-child(2) {
+      flex: 3;
+
+      > p {
+        margin: 0 10px;
+        width: 50px;
+      }
+
+      > button {
+        @include white-button;
+        @include round-button;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > p {
+          margin: 0;
+        }
+      }
+    }
+
+    &:nth-child(3) {
+      flex: 3;
+    }
+
+    &:last-child {
+      flex: 1;
+
+      > button {
+        @include white-button;
+      }
+    }
+  }
+}

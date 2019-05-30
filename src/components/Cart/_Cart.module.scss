@@ -1,0 +1,26 @@
+@import "../../sass/mixins";
+
+.cart {
+  text-align: center;
+  padding: 40px;
+
+  h1 {
+    margin-bottom: 40px;
+  }
+
+  > div:first-of-type {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+
+    > button {
+      @include white-button;
+    }
+  }
+
+  > h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

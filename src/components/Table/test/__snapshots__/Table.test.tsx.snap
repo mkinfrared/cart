@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table should match the snapshot 1`] = `
+<div
+  className="table"
+>
+  <div
+    className="header"
+  >
+    <TableHeaderCell
+      className=""
+      columnName="Product"
+      onClick={[Function]}
+    />
+    <TableHeaderCell
+      className=""
+      columnName="Quantity"
+      onClick={[Function]}
+    />
+    <TableHeaderCell
+      className=""
+      columnName="Price"
+      onClick={[Function]}
+    />
+    <TableHeaderCell />
+  </div>
+</div>
+`;

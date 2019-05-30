@@ -1,0 +1,25 @@
+@mixin button {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  outline: none;
+  letter-spacing: 1px;
+  font-family: Roboto, sans-serif;
+  cursor: pointer;
+}
+
+@mixin white-button {
+  @include button;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+@mixin round-button {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border-radius: 50%;
+  font-weight: bold;
+}

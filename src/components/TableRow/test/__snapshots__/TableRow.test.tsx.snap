@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableRow should match the snapshot 1`] = `
+<div
+  className="tableRow"
+>
+  <div>
+    <p>
+      marklar
+    </p>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      <p>
+        -
+      </p>
+    </button>
+    <p>
+      13
+    </p>
+    <button
+      onClick={[Function]}
+    >
+      <p>
+        +
+      </p>
+    </button>
+  </div>
+  <div>
+    <p>
+      $
+      42
+    </p>
+  </div>
+  <div>
+    <button
+      onClick={[Function]}
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
